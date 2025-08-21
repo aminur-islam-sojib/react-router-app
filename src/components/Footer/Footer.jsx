@@ -19,7 +19,7 @@ const Footer = () => {
           <h1 className=" font-bold text-2xl">Site Map</h1>
           <ul className=" flex flex-col gap-2 mt-4  ">
             <NavLink
-              to="/Home"
+              to=""
               className={({ isActive }) =>
                 ` ${isActive ? 'text-orange-500' : 'text-amber-50'}`
               }
@@ -41,6 +41,14 @@ const Footer = () => {
               }
             >
               Contact
+            </NavLink>
+            <NavLink
+              to="/Github"
+              className={({ isActive }) =>
+                ` ${isActive ? 'text-orange-500' : 'text-amber-50'}`
+              }
+            >
+              Github
             </NavLink>
           </ul>
         </div>
