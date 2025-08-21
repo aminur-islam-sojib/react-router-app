@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className=" grid grid-cols-4  bg-green-950 text-white p-7 gap-5 ">
         <div className=" col-span-2">
-          <h1 className=" font-bold text-3xl">ATARAXIS</h1>
+          <h1 className=" font-bold text-3xl">Sojib Ahmed</h1>
           <p className=" my-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
             mollitia repellat voluptas eius. Modi vel cum architecto mollitia
