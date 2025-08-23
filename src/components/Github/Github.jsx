@@ -17,7 +17,7 @@ const Github = () => {
           <span className="text-indigo-500 font-mono text-sm">
             @{data.login}
           </span>
-          <p className="mt-2 text-gray-600 italic">
+          <p className="mt-2 text-gray-600">
             {data.bio ? data.bio : 'No bio available.'}
           </p>
         </div>
